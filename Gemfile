@@ -47,6 +47,9 @@ gem 'simple_form'
 # installing uploading images
 gem 'carrierwave'
 
+# image resolution
+gem 'mini_magick', '~> 4.3.1'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
