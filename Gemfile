@@ -44,6 +44,8 @@ gem 'devise', '>= 3.2.4'
 # installing adding forms
 gem 'simple_form'
 
+# installing uploading images
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
