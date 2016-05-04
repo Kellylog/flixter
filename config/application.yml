@@ -1,0 +1,5 @@
+AWS_ACCESS_KEY: "AKIAJLLVJWWKYNKH5PCQ"
+AWS_SECRET_KEY: "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"
+AWS_BUCKET:     "flixterkelly"
+AWS_REGION:     "us-west-2"
+
