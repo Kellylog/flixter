@@ -1,0 +1,2 @@
+# config/initializers/carrierwave.rb
+
