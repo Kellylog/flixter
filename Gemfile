@@ -59,6 +59,10 @@ gem "figaro", ">= 1.0.0"
 gem 'ranked-model'
 gem 'jquery-ui-rails'
 
+
+gem 'carrierwave-aws'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

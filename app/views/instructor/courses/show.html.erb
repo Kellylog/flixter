@@ -25,11 +25,13 @@
   </div>
 
   <ul>
-    <% current_course.sections.each do |section| %>
+    <% current_course.sections.rank(:row_order).each do |section| %>
     <li>
       <%= section.title %>
       <%= image_tag current_course.image, class: 'img-responsive' %>
       <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), class: 'pull-right btn btn-primary brn-xs' %>
+
+
     <ul class="lessons">
           <% section.lessons.rank(:row_order).each do |lesson| %>
             <li data-update-url="<%= instructor_lesson_path(lesson) %>">
