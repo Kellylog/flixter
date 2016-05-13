@@ -53,11 +53,16 @@ gem 'mini_magick', '~> 4.3.1'
 # credit card
 gem 'stripe'
 
+# application.yml
 gem "figaro", ">= 1.0.0"
 
 # reordering position
 gem 'ranked-model'
 gem 'jquery-ui-rails'
+
+
+ # gem 'carrierwave-aws'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
