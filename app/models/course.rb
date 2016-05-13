@@ -4,6 +4,7 @@ class Course < ActiveRecord::Base
   has_many :enrollments
   mount_uploader :image, ImageUploader
 
+
   validates :title, presence: true
   validates :description, presence: true
   validates :cost, presence: true, numericality: {greater_than_or_equal_to: 0}
@@ -15,5 +16,4 @@ class Course < ActiveRecord::Base
   def premium?
     ! free?
   end
-  
 end
