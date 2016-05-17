@@ -41,6 +41,10 @@ body {
  text-decoration:none;  
 }
 
+.about a:hover {
+ text-decoration:none;  
+}
+
 $footer-height-mobile: 200px;
 @media (max-width: 750px) {
   #footer {
@@ -57,9 +61,7 @@ $footer-height-mobile: 200px;
     margin-top:10px;
   }
 
-  #about a:hover {
-  text-decorations:none;
-  }
+  
 
 
 
